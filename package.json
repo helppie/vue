@@ -1,11 +1,11 @@
 {
   "name": "@helppie/vue",
   "version": "0.0.1",
-  "description": "",
+  "description": "npm package for helppie vue js widget",
   "main": "HelppieWidget.vue",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Arvind Singh",
   "license": "ISC"
 }
