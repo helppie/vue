@@ -17,10 +17,10 @@ export default {
       const n = t.createElement("script"),
         c = t.getElementsByTagName("script")[0];
       (n.type = "application/javascript"),
-        (n.src = `https://helppie.me/widget.js?id=${this.widgetId}`),
+        (n.src = `https://helppie.me/widget.js?id=${p}`),
         (n.async = !0),
         c.parentNode.insertBefore(n, c);
-    })(window, document);
+    })(window, document, this.widgetId);
   },
 };
 </script>
