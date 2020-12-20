@@ -1,6 +1,6 @@
 {
   "name": "@helppie/vue",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "npm package for helppie vue js widget",
   "main": "HelppieWidget.vue",
   "scripts": {

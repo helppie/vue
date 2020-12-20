@@ -8,7 +8,7 @@
 export default {
   name: "HelppieWidget",
   props: ["widgetId"],
-  created() {
+  mounted() {
     !(function(e, t, p, a, i) {
       (e.helppieData = e.helppieData || []),
         (e.helppie = function() {
