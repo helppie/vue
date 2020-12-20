@@ -17,13 +17,10 @@ export default {
       const n = t.createElement("script"),
         c = t.getElementsByTagName("script")[0];
       (n.type = "application/javascript"),
-        (n.src = "https://cdn.helppie.me/widget.js"),
+        (n.src = `https://helppie.me/widget.js?id=${this.widgetId}`),
         (n.async = !0),
         c.parentNode.insertBefore(n, c);
     })(window, document);
-  },
-  mounted() {
-    helppie(this.widgetId);
   },
 };
 </script>
